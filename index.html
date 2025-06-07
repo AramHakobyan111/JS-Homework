@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+</head>
+<body>
+    <h1>Welcome to My Web Page</h1>
+
+    <button id="myButton">Click Me!</button>
+    <script>
+        document.getElementById('myButton').addEventListener('click', function() {
+            alert('Button was clicked!');
+        });
+    </script>
+
+
+
+    <p id="myText">Hello World</p>
+    <script>
+        window.onload = function() {
+            document.getElementById('myText').style.color = 'blue';
+        };  
+    </script>
+
+
+    <input type="Barev" id=""myInput">
+    <div id=""Display"></div>
+    <script>
+        document.getElementById('myInput').addEventListener('input', function() {
+            document.getElementById('Display').innerText = this.value;
+        });
+    </script>
+
+
+<div id=""collorBox" style="width: auto;"   
+    <script>
+        document.getElementById('collorBox').style.backgroundColor = 'yellow';
+    </script>
+</div>
+    <div id="colorBox" style="width: 100px; height: 100px;"></div>
+    <script>
+        document.getElementById('colorBox').style.backgroundColor = 'green';
+    </script>   
+
+    
+</body>
+
+    </html>
