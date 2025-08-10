@@ -117,5 +117,5 @@ function wait(ms, callback) {
 
 wait(2000, () => console.log("Waited 2 seconds"));
 
-//Task 13
+
 
